@@ -21,7 +21,7 @@ def sendToDiscord(item, url):
     }
     
 
-    webhook = 'https://discordapp.com/api/webhooks/720758771093340171/-bqA33nsV9FbpRMq5jVcLUP5TXQfxxHCojcjnvervDLMu2-tiHgCmeVxR0Z_dAYbW_qc'
+    webhook = 'INSERT WEBHOOK HERE'
 
     result = requests.post(webhook, data=json.dumps(data), headers={"Content-Type": "application/json"})
 
